@@ -1,0 +1,9 @@
+# curl --location --request POST 'http://localhost:8545' --header 'Content-Type: text/plain' --data-raw '{"jsonrpc":"2.0","method":"admin_changeLogLevel","params":["TRACE", ["org.hyperledger.besu.ethereum.eth.sync.snapsync"]], "id":1}'
+POST http://localhost:8545
+Content-Type: text/plain
+
+{"jsonrpc":"2.0","method":"admin_changeLogLevel","params":["TRACE", ["org.hyperledger.besu.ethereum.eth.sync.snapsync"]], "id":1}
+
+###
+
+
